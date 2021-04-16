@@ -1,0 +1,317 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 15827,
+      "max": [
+        14.014265060424805,
+        10.326187133789062,
+        18.261152267456055
+      ],
+      "min": [
+        -13.938178062438965,
+        -11.133604049682617,
+        -18.367347717285156
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 189924,
+      "componentType": 5126,
+      "count": 15827,
+      "max": [
+        0.99962514638900757,
+        0.99990540742874146,
+        0.99958175420761108
+      ],
+      "min": [
+        -0.9998328685760498,
+        -0.99999934434890747,
+        -0.99988478422164917
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 15827,
+      "max": [
+        0.99995720386505127,
+        0.99979680776596069,
+        0.99999773502349854,
+        1
+      ],
+      "min": [
+        -0.99998372793197632,
+        -0.99994122982025146,
+        -0.99994504451751709,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 15827,
+      "max": [
+        0.99898165464401245,
+        0.9754936695098877
+      ],
+      "min": [
+        0.0010928768897429109,
+        0.00099464692175388336
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 83925,
+      "max": [
+        15826
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "3dhdscan (https://sketchfab.com/3dhdscan)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/3f89ba2899194ed2beb521e637e9a0a1",
+      "title": "Plastic cow - statue"
+    },
+    "generator": "Sketchfab-3.19.4",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 335700,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 126616,
+      "byteOffset": 335700,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 379848,
+      "byteOffset": 462316,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 253232,
+      "byteOffset": 842164,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1095396,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/plastova_krava_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/plastova_krava_normal.jpeg"
+    },
+    {
+      "uri": "textures/plastova_krava_metallicRoughness.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "plastova_krava",
+      "normalTexture": {
+        "index": 1,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "strength": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.90842690169999996
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "plastova_krava_plastova_krava_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0.39337852597236633,
+        -0.85099798440933228,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "plastova_krava.FBX"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        -0.32885110665601136,
+        0.94438178172342813,
+        5.5511151231257827e-17,
+        0,
+        4.1280239171381794e-08,
+        1.4374538670480774e-08,
+        -0.999999999999999,
+        0,
+        -0.94438178172342724,
+        -0.32885110665601103,
+        -4.3711388730827139e-08,
+        0,
+        0.0083374977111816406,
+        -0.25002765655517578,
+        0.02179718017578125,
+        1
+      ],
+      "name": "plastova_krava"
+    },
+    {
+      "mesh": 0,
+      "name": "plastova_krava_plastova_krava_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
+
