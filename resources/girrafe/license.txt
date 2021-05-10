@@ -1,0 +1,11 @@
+Model Information:
+* title:	Girrafe
+* source:	https://sketchfab.com/3d-models/girrafe-9d3a26928bbe4c66ba834aad3428badf
+* author:	sambasivarao (https://sketchfab.com/sambasivarao)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Girrafe" (https://sketchfab.com/3d-models/girrafe-9d3a26928bbe4c66ba834aad3428badf) by sambasivarao (https://sketchfab.com/sambasivarao) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
